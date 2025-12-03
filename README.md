@@ -11,8 +11,10 @@ ejecutando los sisguientes comandos:
 ```bash
 python -m venv venv
 source venv/bin/activate
+pip install ipykernel
 pip install pandas
-pip install matplotlib 
+pip install matplotlib
+python -m ipykernel install --user --name "bikes" --display-name "bikes-proyecto)"
 ```
 
 A demás de los instrumentos básicos habituales, necesitaremos también:
